@@ -1,5 +1,5 @@
-mod variables;
+mod variable_shadowing;
 
 fn main() {
-  variables::variables();
+  variable_shadowing::variable_shadowing();
 }
