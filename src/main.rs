@@ -1,5 +1,5 @@
-mod variable_shadowing;
+mod guessing_game;
 
 fn main() {
-  variable_shadowing::variable_shadowing();
+  guessing_game::guessing_game();
 }

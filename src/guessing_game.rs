@@ -7,7 +7,7 @@ pub fn guessing_game() {
 
   let secret_number: u32 = rand::rng().random_range(1..=100);
 
-  println!("The secret number is: {}", secret_number);
+  println!("The secret number is: {secret_number}");
 
   loop {
     println!("Input your guess:");
